@@ -1,0 +1,88 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+}
+
+header,
+main,
+footer {
+    padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+/* Estilos da seção Sobre Mim */
+section {
+    margin-bottom: 20px;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+/* Nav */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: #f2f2f2;
+}
+
+
+/* Gif */
+.giff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.cartao {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.2);
+}
